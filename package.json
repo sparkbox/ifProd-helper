@@ -1,0 +1,30 @@
+{
+  "name": "@sparkbox/if-prod",
+  "version": "0.1.0",
+  "description": "A hbs helper that renders a block if NODE_ENV is production.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs/*.js"
+  },
+  "keywords": [
+    "hbs",
+    "helper",
+    "prod",
+    "env"
+  ],
+  "author": "Sparkbox",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "eslint-config-sparkbox": "^0.3.0",
+    "handlebars": "^4.0.6",
+    "mocha": "^3.2.0"
+  },
+  "repository": {
+    "url": "git@github.com:sparkbox/ifProd-helper.git",
+    "type": "git"
+  },
+  "author": "Adam Simpson <adam@heysparkbox.com>"
+}
