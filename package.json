@@ -1,6 +1,6 @@
 {
   "name": "@sparkbox/if-prod",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A hbs helper that renders a block if NODE_ENV is production.",
   "main": "index.js",
   "scripts": {
